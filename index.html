@@ -70,7 +70,18 @@
 									<header>
 										<h2><strong>ABOUT ME</strong></h2>
 									</header>
-									<p>Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu comteger ut fermentum lorem. Lorem ipsum dolor sit amet. Sed tristique purus vitae volutpat ultrices. eu elit eget commodo. Sed tristique purus vitae volutpat ultrices. Aliquam eu elit eget arcu commodo.</p>
+									<p>My name is Wen-Ling, Chi. Currently, I am 
+										<!-- 畢業於朝陽科大資訊管理系
+										個性開朗，喜歡分享事情，也善於傾聽他人意見
+										不怕犯錯，就怕沒試過就先放棄
+										喜歡撰寫App前端/Web前端， 因為覺得可以給使用者良好的體驗會很有成就感， 並且撰寫程式時也可以即時看到成果， 同時又可以培養自己的美觀及設計能力。
+										
+										曾參予過熱舞社，職位是舞監
+										主要是負責協助管理社團及教導新生
+										曾經也擔任過社團舞展負責人， 從開會、規劃活動、分工、督促目前狀況、時程安排、活動費用等等， 一切都有詳細參與及負責。 -->
+
+
+									</p>
 									<footer>
 										<ul class="buttons">
 											<li><a href="https://drive.google.com/file/d/13JJDmC2ZPVtYAOUF21BQb_cwNL6ZKbjG/view?usp=sharing" class="button">Curriculum Vitae</a></li>
@@ -80,14 +91,6 @@
 								</div>
 								<div class="col-4 col-12-narrower imp-narrower">
 									<img class="portrait" src="images/profile.jpg" alt="" />
-									<!-- <ul class="featured-icons">
-										<li><span class="icon fa-clock"><span class="label">Feature 1</span></span></li>
-										<li><span class="icon solid fa-volume-up"><span class="label">Feature 2</span></span></li>
-										<li><span class="icon solid fa-laptop"><span class="label">Feature 3</span></span></li>
-										<li><span class="icon solid fa-inbox"><span class="label">Feature 4</span></span></li>
-										<li><span class="icon solid fa-lock"><span class="label">Feature 5</span></span></li>
-										<li><span class="icon solid fa-cog"><span class="label">Feature 6</span></span></li>
-									</ul> -->
 
 								</div>
 							</div>
@@ -161,6 +164,8 @@
 
 
 			<!-- Footer -->
+			<div class="fb-customerchat" page_id="107512658054113" minimized="true">
+			</div>
 				<footer id="footer">
 
 					<ul class="icons">
@@ -187,6 +192,24 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				window.fbAsyncInit = function() {
+				FB.init({
+				appId : 'your-app-id',
+				autoLogAppEvents : true,
+				xfbml : true,
+				version : 'v2.11'
+				});
+				};
+			   
+				(function(d, s, id){
+				var js, fjs = d.getElementsByTagName(s)[0];
+				if (d.getElementById(id)) {return;}
+				js = d.createElement(s); js.id = id;
+				js.src = "https://connect.facebook.net/en_US/sdk.js";
+				fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));
+			   </script>
 
 	</body>
 </html>
