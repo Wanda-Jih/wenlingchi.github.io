@@ -2274,6 +2274,10 @@ input, select, textarea {
 			padding: 4em;
 		}
 
+		.wrapper.project-item{
+			text-align: left;
+		}
+
 /* Header */
 
 	@-moz-keyframes reveal-header {
