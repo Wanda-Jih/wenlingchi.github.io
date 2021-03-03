@@ -16,26 +16,6 @@
     width: 13em;
 }
 
-.project-item {
-	padding: 15px 25px;
-	font-size: 24px;
-	text-align: center;
-	cursor: pointer;
-	outline: none;
-	color: #fff;
-	background-color: #4CAF50;
-	border: none;
-	border-radius: 15px;
-	box-shadow: 0 9px #999;
-  }
-  
-  .project-item :hover {background-color: #3e8e41}
-  
-  .project-item :active {
-	background-color: #3e8e41;
-	box-shadow: 0 5px #666;
-	transform: translateY(4px);
-  }
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
