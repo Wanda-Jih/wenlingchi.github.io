@@ -38,7 +38,7 @@
 												<header>
 													<h2><b>Automation Test for SHOPBACK</b></h2>
 												</header>
-												<p>This automated test is suitable for automated testing of login and registration of the SHOPBACK android platform.</p>
+												<p>This automated test is suitable for automated testing of login and signup of the SHOPBACK android platform. The purpose is to allow me to speed up my testing time when doing the QA internship.</p>
 												<ul>
 													<li>Project Period: Jan. 2021 - Mar. 2021</li>
 													<li>Project Duration: Three months</li>
@@ -54,7 +54,7 @@
 										<header>
 											<h3><strong>Introduction</strong></h3>
 										</header>
-										<p>This project is for automatically doing signin and login flow at SHOPBACK android platform. For QA engineer at SHOPBACK, login and signup is a routine work. Thus, this project can save us a lot of time.</p>
+										<p>This project is for automatically doing signup and login flow at SHOPBACK android platform. For QA engineer at SHOPBACK, login and signup is a routine work. Thus, this project can save us a lot of time.</p>
 										<p>At first glance, this may be a very simple automated procedure. However, the registration process of SHOPBACK is very complicated. In addition to checking whether a referral code is used, it is also necessary to use a mobile phone to register. Therefore, before starting to run the automated program, I must first create a phone that can skip OTP in the database. After the registration process is completed, I need to go to the database to check whether the newly created account uses referral code.</p>
 									</section>
 									<br>
@@ -62,6 +62,8 @@
 										<header>
 											<h3><strong>System Design</strong></h3>
 										</header>
+										<p>This project is constructed with appium+python. In order to confirm some information from the database, I need to turn on openVPN to connect to SHOPBACK’s VPN. </p>
+										<p>First, create a new phone that can skip OTP and register a new account. After successful registration, check whether the database has registered a new account and use the referral code. Second, use the newly registered account to run the login process. After successfully logging in, check whether the database has this account. Third, delete this account and phone number.</p>
 										<a style="text-align: center" class="image featured"><img src="images/SB_coral_flow.png"></a>
 									</section>
 									<section>
