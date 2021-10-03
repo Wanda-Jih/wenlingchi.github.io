@@ -325,7 +325,7 @@ fieldset[disabled] .btn-xl.active {
     max-height: 540px;
 }
 
-@media (min-width:768px) {
+@media (min-width:990px) {
     .navbar-default {
         background-color: transparent;
         padding: 12px 0;
