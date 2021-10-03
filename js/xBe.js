@@ -210,7 +210,7 @@ $(function() {
     /* Header shrink function*/
 
     $(function() {
-        var shrinkHeader = 350;
+        var shrinkHeader = 20;
         $(window).scroll(function() {
             var scroll = getCurrentScroll();
             if (scroll >= shrinkHeader) {
